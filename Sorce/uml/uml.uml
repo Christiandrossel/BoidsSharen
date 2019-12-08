@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tL5hQHY1Eein4toCLmdOhQ" name="uml">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_tuq3IHY1Eein4toCLmdOhQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I2_54HY3Eein4toCLmdOhQ" name="Vektor" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_X6P2oHY3Eein4toCLmdOhQ" name="getX"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_n9DL4HY3Eein4toCLmdOhQ" name="getY"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pieRkHY3Eein4toCLmdOhQ" name="getPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_t43DAHY3Eein4toCLmdOhQ" name="setYPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vgZokHY3Eein4toCLmdOhQ" name="setPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xjDc0HY3Eein4toCLmdOhQ" name="add"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yT3OsHY3Eein4toCLmdOhQ" name="sub"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zsmt0HY4Eein4toCLmdOhQ" name="div"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_1HjB0HY4Eein4toCLmdOhQ" name="mult"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_11JHoHY4Eein4toCLmdOhQ" name="isEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4TYEoHY4Eein4toCLmdOhQ" name="isNotEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5_tqoHY4Eein4toCLmdOhQ" name="length"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7DuFUHY4Eein4toCLmdOhQ" name="normalize"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_89d1MHY4Eein4toCLmdOhQ" name="round"/>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_RC3vIHY3Eein4toCLmdOhQ" name="vektor" visibility="protected"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6wSocHY3Eein4toCLmdOhQ" name="Vektor2D" visibility="public">
+    <generalization xmi:type="uml:Generalization" xmi:id="_PixY4HY4Eein4toCLmdOhQ" general="_I2_54HY3Eein4toCLmdOhQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-wKXUHY3Eein4toCLmdOhQ" name="setPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FfL0EHY4Eein4toCLmdOhQ" name="add"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GmASMHY4Eein4toCLmdOhQ" name="sub"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HXc9QHY4Eein4toCLmdOhQ" name="isEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_I0PrYHY4Eein4toCLmdOhQ" name="isNotEqual"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_U2ZOoHY4Eein4toCLmdOhQ" name="Vektor3D" visibility="public">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ndiI4HY4Eein4toCLmdOhQ" general="_I2_54HY3Eein4toCLmdOhQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WCsCoHY4Eein4toCLmdOhQ" name="setPosition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ejzIEHY4Eein4toCLmdOhQ" name="add"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gdktIHY4Eein4toCLmdOhQ" name="sub"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hXRVQHY4Eein4toCLmdOhQ" name="isEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jm1kIHY4Eein4toCLmdOhQ" name="isNotEqual"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-ang8HY-Eein4toCLmdOhQ" name="Überprüfeüberlauf" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AxeqoHY_Eein4toCLmdOhQ" name="addValueOverflow" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HnVIIHY_Eein4toCLmdOhQ" name="subValueOverlow" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LD9AAHY_Eein4toCLmdOhQ" name="multValueOverflow" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ml2QkHY_Eein4toCLmdOhQ" name="divValueOverflow" isStatic="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5WGBsHY_Eein4toCLmdOhQ" name="Lineare Algebra" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8gdE4HY_Eein4toCLmdOhQ" name="add" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9K5JAHY_Eein4toCLmdOhQ" name="sub" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-YougHY_Eein4toCLmdOhQ" name="mult" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__anI4HY_Eein4toCLmdOhQ" name="euklDistance" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DLdkUHZAEein4toCLmdOhQ" name="crossProduct" isStatic="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XxgecHZEEeibusWwneE1Cg" name="isEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ajSpkHZEEeibusWwneE1Cg" name="isNotEqual"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cA_9sHZEEeibusWwneE1Cg" name="normalize"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ehC4kHZEEeibusWwneE1Cg" name="manhattanDistance"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MTDa8HZAEein4toCLmdOhQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_op-NMHZAEein4toCLmdOhQ" name="" client="_tL5hQHY1Eein4toCLmdOhQ" supplier="_-ang8HY-Eein4toCLmdOhQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IWOmwHZFEeibusWwneE1Cg" name="BasisObjekt" isAbstract="true">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2MH74HZGEeibusWwneE1Cg" name="BasisObjekt"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_bUOh0HZFEeibusWwneE1Cg" name="id"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LRVF8HZFEeibusWwneE1Cg" name="BewegtesObjekt">
+    <generalization xmi:type="uml:Generalization" xmi:id="_oA060HZGEeibusWwneE1Cg" general="_IWOmwHZFEeibusWwneE1Cg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8dJ1EHZGEeibusWwneE1Cg" name="BewegtesObjekt"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-kRSkHZGEeibusWwneE1Cg" name="getVelocityObj"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A5SCIHZHEeibusWwneE1Cg" name="getMaxGeschwindigkeit"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_438o8HZGEeibusWwneE1Cg" name="maxGeschwndigkeit"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Mzp0UHZFEeibusWwneE1Cg" name="SchwarmObjekt">
+    <generalization xmi:type="uml:Generalization" xmi:id="_pFNI8HZGEeibusWwneE1Cg" general="_LRVF8HZFEeibusWwneE1Cg"/>
+  </packagedElement>
+</uml:Model>
